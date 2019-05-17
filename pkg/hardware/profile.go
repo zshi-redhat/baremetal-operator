@@ -49,7 +49,7 @@ func init() {
 	profiles[DefaultProfileName] = Profile{
 		Name: DefaultProfileName,
 		RootDeviceHints: RootDeviceHints{
-			DeviceName: "/dev/sda",
+			DeviceName: "/dev/sdb",
 		},
 		RootGB:  10,
 		LocalGB: 50,
